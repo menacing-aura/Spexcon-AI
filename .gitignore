@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+kaggle.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ML experiment tracking
+wandb/
+mlruns/
+runs/
+logs/
+tensorboard/
+
+# Training outputs / checkpoints
+checkpoints/
+outputs/
+artifacts/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+
+# Temporary data / generated files
+tmp/
+temp/
+*.tmp
+*.log
